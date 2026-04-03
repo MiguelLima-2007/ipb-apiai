@@ -4,6 +4,7 @@ import "./globals.css";
 import { MySideBarComponent } from "@/components/my-sidebar";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import HeaderComponent from "@/components/header";
+import FooterComponent from "@/components/footer";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -39,13 +40,13 @@ export default function RootLayout({
             </header>
 
             {/* MAIN */}
-            <main className="bg-cyan-400 flex flex-col grow justify-center items-center">
+            <main className="bg-sky-200 flex flex-col grow justify-center items-center">
               {children}
             </main>
 
             {/* FOOTER */}
-            <footer className="bg-green-300 h-2/12 flex items-center px-4">
-              Rodapé
+            <footer className="bg-green-900 h-2/12 flex items-center px-4">
+              <FooterComponent />
             </footer>
 
           </div>
