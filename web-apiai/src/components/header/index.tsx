@@ -65,7 +65,7 @@ export default function HeaderComponent() {
         <div className="navbar-center hidden lg:flex border-l border-gray-300 pl-4">
           <ul className="menu menu-horizontal px-1 text-white">
             <li>
-              <a className="hover:bg-green-800">Conheça-nos</a>
+              <a className="hover:bg-green-800" href="/conhecaNos">Conheça-nos</a>
             </li>
             <li>
               <details>
@@ -147,13 +147,15 @@ export default function HeaderComponent() {
               </details>
             </li>
             <li>
-              <a className="hover:bg-green-800">Sermões</a>
+              <a className="hover:bg-green-800" href="/sermoes">Sermões</a>
             </li>
             <li>
-              <a className="hover:bg-green-800">Serviços</a>
+              <a className="hover:bg-green-800" href="/servicos">Serviços</a>
             </li>
             <li>
-              <a className="hover:bg-green-800">Contatos</a>
+              <a className="hover:bg-green-800" href="/contatos">
+                Contatos
+              </a>
             </li>
           </ul>
         </div>
