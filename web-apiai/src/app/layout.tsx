@@ -28,7 +28,7 @@ export default function RootLayout({
           <div className="flex flex-col grow h-screen">
             
             {/* HEADER */}
-            <header className="bg-green-900 text-gray-50 h-3/12 flex flex-col">
+            <header className="bg-green-900 text-gray-50 h-30 flex flex-col">
               <div className="px-4 pt-2">
                 <SidebarTrigger />
               </div>
