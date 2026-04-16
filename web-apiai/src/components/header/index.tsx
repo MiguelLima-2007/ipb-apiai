@@ -56,7 +56,7 @@ export default function HeaderComponent() {
             </ul>
           </div>
 
-          <a className="flex items-center gap-2">
+          <a className="flex items-center gap-2" href="/">
             <span className="text-xl font-semibold tracking-wide">IPB</span>
             <span className="text-z text-green-300 tracking-wider">Apiaí</span>
           </a>
