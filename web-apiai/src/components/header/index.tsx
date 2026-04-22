@@ -65,8 +65,11 @@ export default function HeaderComponent() {
         <div className="navbar-center hidden lg:flex border-l border-gray-300 pl-4">
           <ul className="menu menu-horizontal px-1 text-white">
             <li>
-              <a className="hover:bg-green-800" href="/conhecaNos">Conheça-nos</a>
+              <a className="hover:bg-green-800" href="/conhecaNos">
+                Conheça-nos
+              </a>
             </li>
+
             <li>
               <details>
                 <summary className="hover:bg-green-800">Em que Cremos</summary>
@@ -79,12 +82,13 @@ export default function HeaderComponent() {
                       Manual Presbiteriano
                     </a>
                   </li>
+                  // Submenu items 2
                   <li>
                     <a
                       className="hover:bg-green-800"
                       href="https://www.executivaipb.com.br/arquivos/confissao_de_westminster.pdf"
                     >
-                      Confissão de Fé de Westminster2
+                      Confissão de Fé de Westminster
                     </a>
                   </li>
                   <li>
@@ -95,6 +99,16 @@ export default function HeaderComponent() {
                       Catecismo Maior
                     </a>
                   </li>
+                </ul>
+              </details>
+            </li>
+
+            <li>
+              <details>
+                <summary className="hover:bg-green-800">
+                  Documentos de Consulta/Aprendizado
+                </summary>
+                <ul className="p-2 bg-green-900 w-40 z-10">
                   <li>
                     <a
                       className="hover:bg-green-800"
@@ -147,10 +161,14 @@ export default function HeaderComponent() {
               </details>
             </li>
             <li>
-              <a className="hover:bg-green-800" href="/sermoes">Sermões</a>
+              <a className="hover:bg-green-800" href="/sermoes">
+                Sermões
+              </a>
             </li>
             <li>
-              <a className="hover:bg-green-800" href="/servicos">Serviços</a>
+              <a className="hover:bg-green-800" href="/servicos">
+                Serviços
+              </a>
             </li>
             <li>
               <a className="hover:bg-green-800" href="/contatos">
