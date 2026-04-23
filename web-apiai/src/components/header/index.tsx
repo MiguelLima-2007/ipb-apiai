@@ -82,7 +82,6 @@ export default function HeaderComponent() {
                       Manual Presbiteriano
                     </a>
                   </li>
-                  // Submenu items 2
                   <li>
                     <a
                       className="hover:bg-green-800"

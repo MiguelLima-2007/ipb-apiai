@@ -1,6 +1,6 @@
 export default function CarousselComponent() {
   return (
-    <div className="carousel w-full h-[800px]">
+    <div className="carousel w-full h-[800px] rounded-sm">
       <div id="slide1" className="carousel-item relative w-full">
         <img
           src="/images/bannerCarrossel1.png"
