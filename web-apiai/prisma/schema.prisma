@@ -27,15 +27,23 @@ enum Cargo {
 }
 
 model Usuarios {
-  id        Int      @id @default(autoincrement())
+  id        Int      @id @default(autoincrement()) 
   name      String
   email     String   @unique
-  dataNascimento  DateTime @unique
-  igreja Congregacao @default(SEDE) @unique
+  dataNascimento  DateTime 
+  igreja Congregacao @default(SEDE) 
   telefone String?
-  cargo String @unique
-  dataProfissaoFe  DateTime @unique
-  dataBatismo DateTime @unique
+  cargo String 
+  dataProfissaoFe  DateTime 
+  dataBatismo DateTime 
 
+  createdAt DateTime @default(now())
+}
+
+model Sermoes {
+  id          Int      @id @default(autoincrement())
+  titulo       String @unique
+  descricao String 
+  audioUrl    String
   createdAt DateTime @default(now())
 }
