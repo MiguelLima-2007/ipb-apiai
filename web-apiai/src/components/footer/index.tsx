@@ -7,7 +7,7 @@ import { FiInstagram } from "react-icons/fi";
 
 export default function FooterComponent() {
   return (
-    <footer className="w-full bg-green-900 text-gray-50">
+    <footer className="w-full bg-[#294936] text-gray-50">
       <div className="w-full max-w-7xl mx-auto flex items-center justify-between px-10 py-4">
         {/* Texto */}
         <p className="text-sm whitespace-nowrap">

@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function HeaderComponent() {
   return (
-    <header className="bg-green-900 text-white py-4 px-8">
-      <div className="navbar bg-green-900 shadow-sm text-white">
+    <header className="bg-[#294936] text-white py-4 px-8">
+      <div className="navbar bg-[#294936] text-white">
         <div className="navbar-start">
           <div className="dropdown">
             <div
@@ -179,7 +179,7 @@ export default function HeaderComponent() {
 
         <div className="navbar-end">
           <a
-            className="btn border-none text-white-900 hover:bg-green-900"
+            className="btn bg-[#56876D] text-white-900 hover:bg-green-900 border-none"
             href="/cadastro"
           >
             Cadastrar

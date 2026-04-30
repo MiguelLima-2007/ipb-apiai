@@ -4,7 +4,7 @@ import DivisorHomePage from "@/components/contatosDivisor";
 
 export default function Home() {
   return (
-    <div>
+    <div className=" w-full min-h-screen">
       <div className="p-10"><CarousselComponent /></div>
       <div className="p-10"><GroupComponent /></div>
       <DivisorHomePage />

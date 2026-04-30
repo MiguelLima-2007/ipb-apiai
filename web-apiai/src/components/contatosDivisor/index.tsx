@@ -1,6 +1,6 @@
 export default function DivisorHomePage() {
   return (
-    <div className="bg-green-900 h-auto">
+    <div className="bg-[#212922] h-auto">
       <h1 className="text-white text-2xl font-bold text-center p-20">
         CONTATO
       </h1>

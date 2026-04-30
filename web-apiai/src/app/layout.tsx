@@ -28,7 +28,7 @@ export default function RootLayout({
           <div className="flex flex-col grow h-screen">
             
             {/* HEADER */}
-            <header className="bg-green-900 text-gray-50 h-[120px] flex flex-col position-absolute w-full">
+            <header className="bg-[#294936] text-gray-50 h-[120px] flex flex-col position-absolute w-full">
               <div className="px-4 pt-2">
               </div>
 
@@ -41,7 +41,7 @@ export default function RootLayout({
             </main>
 
             {/* FOOTER */}
-            <footer className="bg-green-900 h-2/12 flex items-center px-4">
+            <footer className="bg-[#294936] h-2/12 flex items-center px-4">
               <FooterComponent />
             </footer>
 
