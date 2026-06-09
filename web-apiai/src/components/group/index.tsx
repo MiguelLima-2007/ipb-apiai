@@ -1,7 +1,7 @@
 export default function GroupComponent() {
   return (
     <div>
-      <div className="carousel carousel-end rounded-box w-full h-[400px]">
+      <div className="carousel carousel-end rounded-box w-full h-[400px] animate-fade animate-once animate-duration-[2000ms] animate-delay-1000 animate-ease-linear">
         <div className="carousel-item">
           <img
             src="/images/imageGroupDomingo.png"
