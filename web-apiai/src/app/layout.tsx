@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className={`${inter.variable} font-sans antialiased flex`}>
         <SidebarProvider>
           <div className="flex flex-col grow h-screen">
-            
+
             {/* HEADER */}
             <header className="bg-[#294936] text-gray-50 h-[120px] flex flex-col position-absolute w-full">
               <div className="px-4 pt-2">

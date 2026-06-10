@@ -48,7 +48,7 @@ const eventos: EventoHistorico[] = [
 export default function LinhaDoTempoComponent() {
   return (
     <div>
-      <p className="text-xs tracking-[0.12em] uppercase text-[#294936] font-medium mb-6">
+      <p className="text-xl pt-14 tracking-[0.12em] uppercase text-[#294936] font-medium mb-6">
         Nossa história
       </p>
 

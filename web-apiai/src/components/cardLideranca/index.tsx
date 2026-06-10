@@ -8,28 +8,28 @@ type Lider = {
 const lideres: Lider[] = [
   {
     iniciais: "PM",
-    nome: "Pastor Exemplo",
+    nome: "Pastor Matheus",
     cargo: "Pastor Titular",
-    versiculo: "«Apascenta as minhas ovelhas.» — Jo 21.17",
+    versiculo: "Apascenta as minhas ovelhas. — Jo 21.17",
   },
   {
-    iniciais: "JA",
-    nome: "João Almeida",
-    cargo: "Presbítero",
-    versiculo: "«Sede fortes e corajosos.» — Js 1.9",
+    iniciais: "RT",
+    nome: "Renam Theodoro",
+    cargo: "Evangelista",
+    versiculo: "Sede fortes e corajosos. — Js 1.9",
   },
   {
     iniciais: "MS",
-    nome: "Maria Santos",
-    cargo: "Diaconisa",
-    versiculo: "«Servir a muitos.» — Mc 10.45",
+    nome: "Mariao Santos",
+    cargo: "Presbitero",
+    versiculo: "Servir a muitos. — Mc 10.45",
   },
 ];
 
 export default function CardLideranca() {
   return (
-    <div className="mt-10">
-      <p className="text-xs tracking-[0.12em] uppercase text-[#294936] font-medium mb-6">
+    <div className="pt-8">
+      <p className="text-xl tracking-[0.12em] uppercase text-[#294936] font-medium mb-6 font">
         Nossa liderança
       </p>
 
@@ -39,7 +39,7 @@ export default function CardLideranca() {
             key={lider.nome}
             className="border border-gray-200 rounded-2xl px-5 py-5"
           >
-            <div className="w-12 h-12 rounded-full bg-[#294936]/10 flex items-center justify-center mb-4">
+            <div className="w-36 h-36 rounded-full bg-[#294936]/10 flex items-center justify-center mb-4">
               <span className="text-sm font-semibold text-[#294936]">
                 {lider.iniciais}
               </span>
